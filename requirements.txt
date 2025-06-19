@@ -5,7 +5,7 @@ numpy
 plotly
 yfinance
 pillow
-pypfopt
+git+https://github.com/robertmartin8/PyPortfolioOpt.git
 empyrical
 scipy
 python-dateutil
