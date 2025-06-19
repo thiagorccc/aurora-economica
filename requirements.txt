@@ -1,0 +1,13 @@
+streamlit
+streamlit-option-menu
+pandas
+numpy
+plotly
+yfinance
+pillow
+pypfopt
+empyrical
+scipy
+python-dateutil
+
+
