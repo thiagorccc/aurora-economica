@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#004466"              # Azul profundo (barras, botões)
+backgroundColor = "#FAFAFA"           # Fundo geral do app
+secondaryBackgroundColor = "#E6F0F3"  # Fundo da sidebar
+textColor = "#1C1C1C"                 # Cor do texto padrão
+font = "sans serif"                   # Fonte padrão Streamlit
