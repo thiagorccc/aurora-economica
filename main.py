@@ -4,6 +4,7 @@ from PIL import Image
 from Optimizer import show_optimizer
 from Blog import show_blog
 from Contact import show_contact
+from Predictor import show_predictor
 
 
 # Configurações da página
@@ -41,15 +42,14 @@ background-size: cover;
 </style>
 """
 
-
 st.markdown(page_bg_image, unsafe_allow_html=True)
 
 # Sidebar com menu principal
 with st.sidebar:
     selected = option_menu(
         menu_title= None,
-        options=["Home", "Portfolio Optimizer", "Blog", "Contact"],
-        icons=["house", "bar-chart", "journal-text", "envelope"],
+        options=["Home", "Portfolio Optimizer", "Contact"],
+        icons=["house", "bar-chart", "envelope"],
         menu_icon="sunrise",
         default_index=0,
     )
@@ -65,19 +65,18 @@ elif selected == "Portfolio Optimizer":
     show_optimizer()
 
 # Página: Blog (com submenu horizontal)
-elif selected == "Blog":
-    show_blog()
+# elif selected == "Machine Learning Predictor":
+#     show_predictor()
+
+# elif selected == "Blog":
+#     show_blog()
+
+
 
 # Página: Contato
 elif selected == "Contact":
     show_contact()
 
-# Rodapé
-# st.markdown("---")
-# st.markdown(
-#     "<div style='text-align: center; color: grey;'>© 2024 Aurora Economica. All rights reserved.</div>",
-#     unsafe_allow_html=True
-# )
 
 
 
