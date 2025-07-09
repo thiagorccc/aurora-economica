@@ -4,7 +4,6 @@ from PIL import Image
 from Optimizer import show_optimizer
 from Blog import show_blog
 from Contact import show_contact
-from Predictor import show_predictor
 
 
 # Configurações da página
