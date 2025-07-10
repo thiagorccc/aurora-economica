@@ -9,7 +9,7 @@ from Contact import show_contact
 # Configurações da página
 st.set_page_config(
     page_title='Aurora Economica',
-    page_icon="🌅",
+    page_icon="favicon.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
