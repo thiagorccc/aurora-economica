@@ -164,6 +164,13 @@ def show_optimizer():
             "PNVL3.SA": "Panvel ON",
             "SAPR11.SA": "Sanepar Units",
             "SLED4.SA": "Saraiva Livreiros PN",
+            "AURE3.SA": "Auren Energia ON",
+            "CXSE3.SA": "Caixa Seguridade Participações ON",
+            "HBSA3.SA": "Hidrovias do Brasil ON",
+            "ISAE4.SA": "ISA Energia Brasil PN",
+            "SIMH3.SA": "Simpar ON",
+            "TUPY3.SA": "Tupy ON",
+            "OIBR3.SA": "Oi ON",
 
                 # Índices de Ações Brasil
             "BOVA11.SA": "iShares Ibovespa ETF (Equities)",
@@ -512,6 +519,10 @@ def show_optimizer():
                 "XDEQ.DE": "Xtrackers MSCI World Quality UCITS ETF",
                 "XZEM.DE": "Xtrackers MSCI Emerging Markets ESG UCITS ETF",
                 "XWLD.L": "Xtrackers MSCI Europe UCITS ETF 1C",
+                "NEAR": "iShares Short Duration Bond Active ETF (Fixed Income)",
+                "IGSB": "iShares 1–5 Year Investment Grade Corporate Bond ETF (Fixed Income)",
+                "RSP": "Invesco S&P 500 Equal Weight ETF (Equities)",
+                "XAR": "SPDR S&P Aerospace & Defense ETF (Equities)",
                 
                 # Europa fatores & estilo
                 "DBX0FK.DE": "Xtrackers MSCI Europe Value UCITS ETF",
